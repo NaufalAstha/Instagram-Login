@@ -1,0 +1,135 @@
+:root{
+    --background: #fff;
+    --color: #000;
+    --line: #E0E2E4;
+}
+
+body{
+    background: var(--background);
+    color: var(--color);
+
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+
+    height: 95vh;
+}
+
+/* Side Image */
+.side-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1500px;
+    height: auto;
+}
+
+.side-img p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.side-img span{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #fb724b, rgba(255, 0, 105, 1), rgba(211, 0, 197, 1));
+}
+
+.side-img img{
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
+}
+
+/* Login Form */
+.login{
+    background: var(--background);
+    box-shadow: -3px 0px var(--line);
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    
+    text-align: left;
+    justify-content: center;
+    padding: 0px 60px;
+}
+
+.login p{
+    font-size: 1.7rem;
+}
+
+.login input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+
+    border: 2px solid #E0E2E4;
+    border-radius: 20px;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.login button{
+    padding: 20px;
+    border-radius: 100px;
+    border: none;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.login .loginBtn{
+    background-color: #9BC1F1;
+    color: #F5F7FA;
+}
+
+.login .forgotPassword{
+    background: none;
+}
+
+.login .forgotPassword:hover{
+    background: #F3F4F5;
+}
+
+.login img{
+    width: 50px;
+    height: 50px
+}
+
+.login a{
+    text-decoration: none;
+    color: var(--color);
+    text-align: center;
+}
+
+/* Footer */
+.footer{
+    box-shadow: 0px -3px var(--line);
+    padding: 10px;
+}
+
+.footer ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #737373;
+}
