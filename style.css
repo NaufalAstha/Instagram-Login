@@ -101,8 +101,13 @@ body{
     color: #F5F7FA;
 }
 
+.loginBtn:not([disabled]) {
+    background-color: #0664DB;
+}
+
 .login .forgotPassword{
     background: none;
+    cursor: pointer;
 }
 
 .login .forgotPassword:hover{
